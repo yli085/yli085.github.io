@@ -28,7 +28,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-```Another block
+```
 x <- a + b
 ```
 
