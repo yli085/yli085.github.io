@@ -1,5 +1,5 @@
 ---
-title: Three types of subsetting in R
+title: Data subsetting
 date: 2021-03-18
 ---
 
