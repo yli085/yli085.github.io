@@ -3,7 +3,7 @@ title: Data subsetting
 date: 2021-03-18
 ---
 
-# content
+### content
 To subset a dataframe in R:
 - by rows
 - by columns
