@@ -16,8 +16,10 @@ After checking this blog [How to Keep Your R Packages Up to Date](https://rforth
 
 ## Steps
 - Update R
+
 Just use the official website to download the newest R. https://cloud.r-project.org/
 - Update R Studio
+
 Go to official website to download the newest R studio. https://www.rstudio.com/products/rstudio/download/
 - Update BiocManager
 ```
@@ -32,7 +34,8 @@ Also, it shows that the newer R and its packages are stored in a different path 
 ```
 And the library is empty except the basic R and the just installed packages. 
 Apparently, I will need to install all the packages under the new version again.
+But it is also a good opportunity for library cleaning. I just need to install the ones I currently use.
 
 
-## the problem
+## the image
 ![](../figures/R_install_package_warning.png)
