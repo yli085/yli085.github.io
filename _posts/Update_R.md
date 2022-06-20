@@ -12,7 +12,7 @@ saying "package 'x' is not available for Bioconductor version '3.y'". While it i
 As I encountered this issue several times, I realized that my R version is too old for many recently developed single-cell packages.
 The only thing I can do to proceed is to update the R version and related Bioconductor version.
 
-After checking this blog, I follow its way and here are the steps.
+After checking this blog [How to Keep Your R Packages Up to Date](https://rfortherestofus.com/2020/09/how-to-update-rstudio-r-packages/), I follow its way and here are the steps.
 
 ## Steps
 - Update R
