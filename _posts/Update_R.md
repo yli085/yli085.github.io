@@ -36,6 +36,11 @@ And the library is empty except the basic R and the just installed packages.
 Apparently, I will need to install all the packages under the new version again.
 But it is also a good opportunity for library cleaning. I just need to install the ones I currently use.
 
+## Notes: install packages through other ways
+After the update, I still got the same warning message when I tried to install R package 'SeuratData'. For this case, I think this issue is not due to my R version. I googled it and found the package's github page. Up there, I found the answer: this package is only installed through the 'devtools'.
+```
+devtools::install_github('satijalab/seurat-data')
+```
 
 ## the image
 ![](../figures/R_install_package_warning.png)
