@@ -1,10 +1,11 @@
+## multiple intersections
+
+# use reduce function to get the overlapping genes
 library(purrr)
-ol <- purrr::reduce(list, intersect)
+ol <- purrr::reduce(genes_ls, intersect)
 
-# equivalent to a loop
-ol_temp <- intersect(list[[1]], list[[2]])
-
-for (i in 3:length(list)){
-  ol_temp <- intersect(ol_temp, list[[i]])
+# Or, use loop
+ol_tempt <- intersect(genes_ls[[1]], genes_ls[[2]])
+for (i in 3:length(top_var)) {
+  ol_tempt <- intersect(ol_tempt, genes_ls[[i]])
 }
-ol <- ol_temp
