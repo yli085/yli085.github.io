@@ -24,7 +24,7 @@ barplot(1:8, col=palette);
 
 ## How to use it in ggplot2:
 # scale_color_manual() or scale_fill_manual()  with color names or hex codes
-p + scale_color_manual(values=c("#69b3a2", "purple", "black"))
+p + scale_fill_manual(values=c("#69b3a2", "purple", "black"))
 
 # scale_color_brewer() or scale_fill_brewer() with existing palette names.
 # discrete scale using scale_fill_brewer
