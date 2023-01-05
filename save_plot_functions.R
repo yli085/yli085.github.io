@@ -24,7 +24,7 @@ dev.off()
 # fonts: font family. The default is “Helvetica”.
 
 
-## convert the plot into ppt
+## convert the plot into pptx
 install.packages("eoffice")
 library(eoffice)
 
